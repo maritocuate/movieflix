@@ -1,0 +1,36 @@
+.banner {
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--THrf5Yjw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n6brz4p7iq7j1mulo1nv.jpg');
+    background-position: center center;
+    height: 448px;
+    color: white;
+    object-fit: contain;
+
+    &__contents {
+        margin-left: 30px;
+        padding-top: 140px;
+        height: 190px;
+    }
+    &__title {
+        font-size: 3rem;
+        font-weight: 800;
+        padding-bottom: 0.3rem;
+    }
+    &__description {
+        width: 45rem;
+        height: 80px;
+        max-width: 360px;
+        line-height: 1.3;
+        font-size: 0.8rem;
+        padding-top: 1rem;
+    }
+    &__fadeBottom {
+        height: 7.4rem;
+        background-image: linear-gradient(
+            180deg,
+            transparent,
+            rgba(37, 37, 37, 0.61),
+            #111
+        );
+    }
+}

@@ -1,9 +1,14 @@
 //rfce
 import React from 'react'
+import Banner from './components/Home/Banner'
 
 function HomeScreen() {
   return (
-    <div>HomeScreen</div>
+    <div>
+      {/* NAV */}
+      <Banner />
+      {/* ROW */}
+    </div>
   )
 }
 
