@@ -1,9 +1,9 @@
 //rfce
 import React from 'react'
-import Banner from './components/Home/Banner'
-import Nav from './components/Home/Nav'
-import Row from './components/Home/Row'
-import requests from './api/Requests'
+import Banner from '../components/Home/Banner'
+import Nav from '../components/Home/Nav'
+import Row from '../components/Home/Row'
+import requests from '../api/Requests'
 
 function HomeScreen() {
   return (
