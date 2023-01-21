@@ -1,6 +1,14 @@
-# Getting Started with Create React App and Redux
+# Movieflix App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A SPA developed with React.js for watching movies with a login system and a Firebase database.
+
+## Features
+
+- User-friendly interface for browsing a list of available movies.
+- Details of the selected movie and video playback.
+- Login system for registering and signing in to the application.
+- Firebase database for storing information about the movies available on the application.
+- Access control to ensure that only registered users can watch movies.
 
 ## Available Scripts
 
