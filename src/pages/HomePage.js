@@ -5,7 +5,7 @@ import Nav from '../components/Home/Nav'
 import Row from '../components/Home/Row'
 import requests from '../api/Requests'
 
-function HomeScreen() {
+function HomePage() {
   return (
     <div>
       <Nav />
@@ -39,4 +39,4 @@ function HomeScreen() {
   )
 }
 
-export default HomeScreen
+export default HomePage
