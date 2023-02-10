@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './styles.scss'
 import logo from '../../assets/logo-secondary.png'
 import background from '../../assets/background.png'
+import Signin from '../Signin'
 
 function Login() {
 
@@ -27,7 +28,7 @@ function Login() {
       <div className='login__body'>
 
         {signIn ? (
-          <>signInScreen</>
+          <Signin />
         ):(
           <>
             <h1>Unlmited films, TV shows and more.</h1>
